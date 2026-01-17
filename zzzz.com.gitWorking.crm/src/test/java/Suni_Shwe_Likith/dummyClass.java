@@ -5,6 +5,8 @@ public static void main(String[] args) {
 	
 System.out.println();
 
+@FindBy(name="user_name")
+private webElement usernameTxt;
 }
 }
 
